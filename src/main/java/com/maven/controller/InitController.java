@@ -15,6 +15,6 @@ public class InitController {
 
     @GetMapping("/init")
     public String init(){
-        return "active";
+        return "无敌";
     }
 }
