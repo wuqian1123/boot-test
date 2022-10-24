@@ -15,10 +15,6 @@ public class InitController {
 
     @GetMapping("/init")
     public String init(){
-    		System.out.println("444");
-        System.out.println("1");
-        System.out.println("2");
-        System.out.println("3");
-        return "无敌a";
+        return "无敌";
     }
 }
