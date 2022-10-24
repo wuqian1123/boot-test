@@ -15,10 +15,14 @@ public class InitController {
 
     @GetMapping("/init")
     public String init(){
-    		System.out.println("444");
+<<<<<<< HEAD
+    		 System.out.println("444");
+        return "无敌111";
+=======
         System.out.println("1");
         System.out.println("2");
         System.out.println("3");
         return "无敌a";
+>>>>>>> b3abede3bfb041f1398278ee26fe1c7f65d83208
     }
 }
